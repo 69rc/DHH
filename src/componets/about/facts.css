@@ -1,0 +1,19 @@
+.text-gold {
+    color: #FFD700; /* Gold color */
+}
+
+.text-navy {
+    color: #001F3F; /* Navy blue color */
+}
+
+.bg-navy {
+    background-color: #001F3F; /* Navy blue background */
+}
+
+.bg-gold {
+    background-color: #FFD700; /* Gold background */
+}
+
+.text-dark {
+    color: #343a40; /* Dark text color for better readability */
+}

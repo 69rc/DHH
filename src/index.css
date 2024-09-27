@@ -1,0 +1,19 @@
+.h{
+    height: 35vh;
+    width: 100%;
+}
+.social-icons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons a{
+    color: #fff;
+    background:  #FF3E41;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10%;
+    margin: 0 10px;
+    text-decoration: none;
+}
