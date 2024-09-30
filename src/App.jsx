@@ -11,6 +11,8 @@ import Testimonial from './componets/Testimonial/Testimonial';
 import Footer from './componets/footer/footer';
 import ScrollToTop from './ScrollToTop';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import GrantForm from './componets/Grantform'
+import AccountDetails from './AccountDetails'
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/grant-form" element={<GrantForm/>} />
+          <Route path="/account-details" element={<AccountDetails/>} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/features" element={<Features />} />

@@ -1,0 +1,100 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fa; /* Soft background for the entire page */
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .grant-form {
+
+    background-color: #ffffff; /* White background for the form */
+    padding: 40px;
+    border-radius: 15px; /* More rounded corners */
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    max-width: 700px; /* Increased max width for better visibility */
+    margin: auto; /* Center the form */
+  }
+  
+  .grant-form h1 {
+    color: #343a40; /* Darker title color */
+    text-align: center; /* Centered title */
+    margin-bottom: 30px; /* Space below the title */
+    font-size: 1.8rem; /* Increased font size */
+  }
+  
+  .grant-form h2 {
+    margin-top: 25px;
+    color: #007bff; /* Primary color for headers */
+    border-bottom: 2px solid #007bff; /* Underline effect */
+    padding-bottom: 5px; /* Space below header */
+    font-size: 1.5rem; /* Size for section headers */
+  }
+  
+  .grant-form label {
+    font-weight: bold;
+    color: #495057; /* Darker label color */
+    margin-bottom: 5px; /* Space below labels */
+  }
+  
+  .grant-form .form-group {
+    margin-bottom: 1.5rem; /* Space between form groups */
+  }
+  
+  .grant-form .form-control {
+    border-radius: 5px; /* Rounded edges for inputs */
+    border: 1px solid #ced4da; /* Light border */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+  }
+  
+  .grant-form .form-control:focus {
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Light shadow on focus */
+  }
+  
+  .grant-form .btn-primary {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px; /* Rounded edges for button */
+    background-color: #007bff; /* Primary button color */
+    border: none; /* Remove default border */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .grant-form .btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+  .grant-form p {
+    margin: 20px 0; /* Space around the declaration */
+    color: #495057; /* Darker text for declaration */
+    line-height: 1.6; /* Improved readability */
+  }
+  
+  @media (max-width: 576px) {
+    .grant-form {
+      padding: 20px; /* Adjust padding for smaller screens */
+    }
+  
+    .grant-form h1 {
+      font-size: 1.5rem; /* Adjust title size on small screens */
+    }
+  
+    .grant-form h2 {
+      font-size: 1.3rem; /* Adjust section header size */
+    }
+  }
+  
+  .modal-header {
+    background-color: #007bff;
+    color: white;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.modal-footer {
+    justify-content: center;
+}

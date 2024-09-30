@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './navbar.css';
-import { NavLink } from 'react-router-dom';
+import { Navigate, NavLink } from 'react-router-dom';
 import { CiDeliveryTruck } from "react-icons/ci";
 import { Button } from 'reactstrap';
 import { AiOutlineMenu,  AiOutlineClose} from "react-icons/ai"
 import Logo from '../../assets/logo2.png'
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -12,6 +13,11 @@ import Logo from '../../assets/logo2.png'
 export default function Navbar() {
    const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
+  const Navigate = useNavigate();
+
+  const handleApply =() =>{
+    Navigate('/grant-form')
+  }
 
   const handleMenuClick = () => {
     setIsMenuOpen((prev) => !prev);
@@ -87,9 +93,9 @@ export default function Navbar() {
        <div className="last" onClick={handleMenuClick}>
          <ul className='m-3'>
           <li className='btn'>
-          <NavLink to="/login" className="login-link">
-            <Button className='btns' color='dark'>
-              login
+          <NavLink to="/grant-form" className="login-link">
+            <Button className='btns' color='dark' onClick={handleApply}>
+              Apply
             </Button>
             </NavLink>
 
