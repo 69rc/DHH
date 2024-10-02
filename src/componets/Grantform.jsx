@@ -110,7 +110,7 @@ function GrantForm() {
           <p>Would you like to proceed to payment?</p>
         </ModalBody>
         <ModalFooter>
-          <Button color="success" onClick={handleProceedToPayment}>Proceed to Payment</Button>
+          <Button color="success" onClick={handleProceedToPayment}>Proceed to Payment of $150.</Button>
           <Button color="secondary" onClick={toggleModal}>Cancel</Button>
         </ModalFooter>
       </Modal>
